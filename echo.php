@@ -3,5 +3,13 @@
 echo execute();
 
 function execute() {
-    return "echoだよ\n";
+
+    $return = "";
+    $return .= a();
+
+    return "$return\n";
+}
+
+function a() {
+  return "あいうえお\n";
 }
